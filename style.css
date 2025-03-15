@@ -1,0 +1,54 @@
+header {
+    background-image: url(imagen/text2.png) ;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    background-image: url(imagen/Minecraft-84160.png!d);
+    background-color: black;
+}
+nav ul {
+    background-image: url(imagen/Minecraft-84160.png!d);
+    list-style:none ;
+    padding: 0%;
+    margin: 10px 0 0;
+}
+nav ul li a  {
+    color: aqua;
+    text-decoration: none;
+    font-size: 1.5em;
+    align-items: center;
+}
+nav ul li {
+    display: inline-block;
+    margin: 15px;
+}
+nav ul a:hover {
+    color:aliceblue;
+}
+aside {
+    width: 20%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color:blue;
+}
+li h1 {
+    font-size: 200%;
+}
+.carrusel::-webkit-scrollbar{
+    display: none;
+
+}
+.carrusel{
+    display:flex;
+    flex-wrap:nowrap;
+    overflow: scroll;
+}
+.imagen {
+    flex: 1 0 auto;
+    margin: 0 15px;
+    background-color: black;
+}
